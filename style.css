@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'montserrat',sans-serif;
+}
+
+.app{
+    padding-top: 50px ;
+    background-image: linear-gradient(rgba(171, 154, 154, 0.2), rgba(208, 156, 25, 0.1)), url("bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header{
+    padding: 20px;
+}
+.header h1{
+    padding: 10px;
+    color: orange;
+    text-shadow: 1px 1px rgba(1,1,10.9);
+}
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid orange;
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.content{
+font-size: 30px;
+font-weight: 500;
+margin-bottom: 10px;
+text-shadow: 3px rgba(0,0,00.8);
+}
+.temp{
+    color:beige;
+    font-weight: 900;
+    font-size: 90px;
+
+}
+
+.desc{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 20px ;
+}
